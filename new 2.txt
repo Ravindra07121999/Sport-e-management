@@ -1,0 +1,67 @@
+<p>Choose game<sup>&#9733;</sup></p>
+		<div class="form-check-inline">
+		  <input type="checkbox" class="form-check-input" id="check1" name="cricket" value="something" >Cricket
+		  </label>
+		</div>
+		<div class="form-check-inline">
+			<input type="checkbox" class="form-check-input" id="check2" name="football" value="something">Football
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <input type="checkbox" class="form-check-input" id="check1" name="chess" value="something" >Chess
+		  </label>
+		</div>
+		<div class="form-check-inline">
+			<input type="checkbox" class="form-check-input" id="check2" name="vollyball" value="something">Vollyball
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <input type="checkbox" class="form-check-input" id="check1" name="kabaddi" value="something" >Kabaddi
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <label class="form-check-label" for="check2">
+			<input type="checkbox" class="form-check-input" id="check2" name="tabletannies" value="something">Table Tannis
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <label class="form-check-label" for="check2">
+			<input type="checkbox" class="form-check-input" id="check2" name="badminton" value="something">Badminton
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <label class="form-check-label" for="check2">
+			<input type="checkbox" class="form-check-input" id="check2" name="atheletics" value="something">Atheletics
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <label class="form-check-label" for="check2">
+			<input type="checkbox" class="form-check-input" id="check2" name="carrom" value="something">Carrom
+		  </label>
+		</div>
+		
+		
+		
+		
+		
+		
+		,cricket,football,chess,vollyball
+,kabaddi,tabletannies,badminton,atheletics,carrom
+
+
+,'$cricket','$football','$chess','$vollyball','$kabaddi',
+ '$tabletannies','$badminton','$atheletics','$carrom'
+ 
+ 
+ 
+ 
+ 
+ $cricket=$_POST['cricket'];
+$football=$_POST['football'];
+$chess=$_POST['chess'];
+$vollyball=$_POST['vollyball'];
+$kabaddi=$_POST['kabaddi'];
+$tabletannies=$_POST['tabletannies'];
+$badminton=$_POST['badminton'];
+$atheletics=$_POST['atheletics'];
+$carrom=$_POST['carrom'];
